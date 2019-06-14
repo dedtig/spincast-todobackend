@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-               echo 'Run tests here...'
+               echo 'Run Davids tests here...'
             }
         }
         stage('Publish Artifact') {
